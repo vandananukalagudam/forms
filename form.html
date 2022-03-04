@@ -1,0 +1,53 @@
+<html>
+    <head>
+       <style>
+           form{
+               margin-left: 30px;
+           }
+           label{
+               color:brown;
+
+           }
+           input[type="text"]{
+               border-left: 0;
+               border-top: 0;
+               border-right: 0;
+               outline:0;
+           }
+           input[type="submit"]{
+               width:200px;
+               background-color: green;
+               padding:10px;
+               color: aliceblue;
+               border-radius: 10px;
+               border:0;
+           }
+           textarea{
+               outline:0;
+               border-radius: 20px;
+           }
+       </style>
+    </head>
+    <body>
+        <form>
+            <label>enter name:</label><br><input type="text" placeholder="enter your name" required><br><br>
+            <label>college name:</label><input type="text" placeholder="enter college"><br><br>
+            <label>enter email:</label><input type="email" placeholder="enter email"><br><br>
+            <label>enetr password:</label><input type="password" placeholder="enter password" maxlength="5"><br><br>
+            <label>enter dob:</label><input type="date" min="2000-01-01" max="2022-01-01"><br><br>
+            <label>time:</label><input type="time"><br><br>
+            <label>upload resume</label><input type="file"><br><br>
+            <label>gender</label><input type="radio" name="gen">male<input type="radio" name="gen">female<input type="radio" name="gen">others<br><br>
+            <label>choose country</label><br><br>
+            <select>
+                <option>india</option>
+                <option>china</option>
+                <option>srilanka</option>
+            </select><br><br>
+            <textarea  cols="40" rows="5" placeholder="enter text"></textarea><br><br>
+            <input type="checkbox">i agree<br><br>
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
